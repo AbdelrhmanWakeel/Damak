@@ -1,0 +1,11 @@
+<section id="partners" class="py-5" [@fadeIn]>
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Our Partners</h2>
+    <div class="partners-slider d-flex overflow-auto gap-4 pb-2">
+      <div *ngFor="let partner of partners" class="partner-card text-center flex-shrink-0">
+        <img [src]="partner.logo" [alt]="partner.name" class="img-fluid mb-2" style="height: 80px;">
+        <p class="fw-medium main-color">{{ partner.name }}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(styles/brand-colors.scss);
+
+@font-face {
+  font-family: 'Futura';
+  src: url(./assets/fonts/Futura\ Light\ font.ttf) format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url(./assets/fonts/futura\ medium\ bt.ttf) format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url(./assets/fonts/Futura\ Bold\ font.ttf) format('truetype');
+  font-weight: 500;
+}
+
+body {
+  font-family: 'Futura', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+

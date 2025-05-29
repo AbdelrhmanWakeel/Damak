@@ -1,0 +1,24 @@
+.partners-slider {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+
+  .partner-card {
+    width: 180px;
+    scroll-snap-align: start;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  }
+}
+
+.main-color{
+  color: var(--color-accent);
+}

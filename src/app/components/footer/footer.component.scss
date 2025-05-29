@@ -1,0 +1,16 @@
+footer {
+  font-size: 0.9rem;
+
+  .social-links i {
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+    &:hover {
+      color: #0d6efd;
+    }
+  }
+}
+.bg-2{
+background: url(../../../../public/DAMAK12.jpg) center/cover no-repeat;
+min-height: 110vh;
+  background-size: 100% 100%;
+}
